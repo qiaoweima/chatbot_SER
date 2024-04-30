@@ -16,5 +16,5 @@ rasa run --enable-api -m "rasa/models/nlu-20230605-081816-ancient-tributary.tar.
 ```
 source ~/.bashrc
 conda activate auto
-python rasa/ser.py
+python ser.py
 ```
