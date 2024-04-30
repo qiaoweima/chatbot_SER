@@ -8,7 +8,7 @@
 ```
 source ~/.bashrc
 conda activate auto
-rasa run --enable-api -m "/home/xc/rasa/models/nlu-20230605-081816-ancient-tributary.tar.gz"
+rasa run --enable-api -m "rasa/models/nlu-20230605-081816-ancient-tributary.tar.gz"
 ```
 
 窗口2：
@@ -16,5 +16,5 @@ rasa run --enable-api -m "/home/xc/rasa/models/nlu-20230605-081816-ancient-tribu
 ```
 source ~/.bashrc
 conda activate auto
-python ser.py
+python rasa/ser.py
 ```
